@@ -1,0 +1,16 @@
+C:\Users\bitstudent\source\repos\MovieData\bin\Debug\net5.0\MovieData.exe
+C:\Users\bitstudent\source\repos\MovieData\bin\Debug\net5.0\MovieData.deps.json
+C:\Users\bitstudent\source\repos\MovieData\bin\Debug\net5.0\MovieData.runtimeconfig.json
+C:\Users\bitstudent\source\repos\MovieData\bin\Debug\net5.0\MovieData.runtimeconfig.dev.json
+C:\Users\bitstudent\source\repos\MovieData\bin\Debug\net5.0\MovieData.dll
+C:\Users\bitstudent\source\repos\MovieData\bin\Debug\net5.0\ref\MovieData.dll
+C:\Users\bitstudent\source\repos\MovieData\bin\Debug\net5.0\MovieData.pdb
+C:\Users\bitstudent\source\repos\MovieData\obj\Debug\net5.0\MovieData.csproj.AssemblyReference.cache
+C:\Users\bitstudent\source\repos\MovieData\obj\Debug\net5.0\MovieData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bitstudent\source\repos\MovieData\obj\Debug\net5.0\MovieData.AssemblyInfoInputs.cache
+C:\Users\bitstudent\source\repos\MovieData\obj\Debug\net5.0\MovieData.AssemblyInfo.cs
+C:\Users\bitstudent\source\repos\MovieData\obj\Debug\net5.0\MovieData.csproj.CoreCompileInputs.cache
+C:\Users\bitstudent\source\repos\MovieData\obj\Debug\net5.0\MovieData.dll
+C:\Users\bitstudent\source\repos\MovieData\obj\Debug\net5.0\ref\MovieData.dll
+C:\Users\bitstudent\source\repos\MovieData\obj\Debug\net5.0\MovieData.pdb
+C:\Users\bitstudent\source\repos\MovieData\obj\Debug\net5.0\MovieData.genruntimeconfig.cache
