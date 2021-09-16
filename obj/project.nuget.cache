@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vRlKyTSJrfPpX4Jm/Q0J7ZjE7OpB7JthKrn/7tMwbLlHnq3d3U4aK7ub8HuF7tpTaXFxfwlhk6lRXSjmkkLV+w==",
+  "dgSpecHash": "M1VhcVY1oYOAJH3+K9y0UEdTxBWK/0DhEv1D8hfbmJGWhjSbOa0eSA2Hx8fopSET8nGsZR6RboGdpxgzxAmJNA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bitstudent\\source\\repos\\MovieData\\MovieData.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\addde\\source\\repos\\WCTC Projects\\MovieData\\MovieData.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\addde\\.nuget\\packages\\nlog\\4.7.11\\nlog.4.7.11.nupkg.sha512"
+  ],
   "logs": []
 }
