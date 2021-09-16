@@ -1,4 +1,11 @@
-﻿using System;
+﻿
+//Repo: MovieData
+//Author: Emma Meade
+//Version: 1.xx
+
+using System;
+using NLog.Web;
+using System.IO;
 
 namespace MovieData
 {
@@ -9,7 +16,7 @@ namespace MovieData
             Console.WriteLine("Hello World!");  
             
             //Log program start
-
+            
             //Welcome Message
             //Give the User 3 Options
             //1.) View all the movies
