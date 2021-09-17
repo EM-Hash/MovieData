@@ -6,3 +6,22 @@
 2021-09-17 10:34:01.4070|INFO|MovieData.Program|Program end
 2021-09-17 10:34:10.0592|INFO|MovieData.Program|Program start
 2021-09-17 10:34:11.5386|INFO|MovieData.Program|Program end
+2021-09-17 10:38:04.1818|INFO|MovieData.Program|Program start
+2021-09-17 10:38:06.0837|INFO|MovieData.Program|View all movies
+2021-09-17 10:38:06.0837|INFO|MovieData.Program|Program end
+2021-09-17 10:41:35.0879|INFO|MovieData.Program|Program start
+2021-09-17 10:41:46.4890|INFO|MovieData.Program|View all movies
+2021-09-17 10:41:46.5083|INFO|MovieData.Program|Program end
+2021-09-17 10:42:02.8097|INFO|MovieData.Program|Program start
+2021-09-17 10:42:04.0152|INFO|MovieData.Program|View all movies
+2021-09-17 10:42:04.0212|ERROR|MovieData.Program|File does not exist
+2021-09-17 10:42:04.0212|INFO|MovieData.Program|Program end
+2021-09-17 10:42:34.6108|INFO|MovieData.Program|Program start
+2021-09-17 10:42:34.8084|INFO|MovieData.Program|View all movies
+2021-09-17 10:42:34.8084|INFO|MovieData.Program|Program end
+2021-09-17 10:45:06.8559|INFO|MovieData.Program|Program start
+2021-09-17 10:45:08.4734|INFO|MovieData.Program|View all movies
+2021-09-17 10:45:08.4734|INFO|MovieData.Program|Program end
+2021-09-17 10:45:12.3071|INFO|MovieData.Program|Program start
+2021-09-17 10:45:13.0184|INFO|MovieData.Program|Add a movie
+2021-09-17 10:45:13.0184|INFO|MovieData.Program|Program end

@@ -19,6 +19,9 @@ namespace MovieData
 
             // create instance of Logger
             var logger = NLog.Web.NLogBuilder.ConfigureNLog(path).GetCurrentClassLogger();
+
+            //Name of the file to read
+            string movieFile = "movies.csv";
             
             //Log program start
             logger.Info("Program start");
@@ -49,15 +52,20 @@ namespace MovieData
                     Separate by Pipes
                 */
                 //Try to open file w/ stream reader
-                //If it doesn't exist, throw exception and close program
-                
-                //While there are still lines to read...
+                try{
+                    StreamReader sr = new StreamReader(movieFile);
+                    //While there are still lines to read...
                     //Create array of movie values (see How to Parse Data)
 
                     //Print in format [Title (Genre, Genre, Genre, etc...)]
                     //Print New line
 
-                //Close stream reader
+                    //Close stream reader
+                    sr.Close();
+                } catch(Exception e) {
+                    //If it doesn't exist, throw exception and close program
+                    logger.Error("File does not exist");
+                }
             } else if (ans == "2"){
                 logger.Info("Add a movie");
                 //Add to Movies
@@ -68,7 +76,7 @@ namespace MovieData
                 */
 
                 //Create stream writer
-
+                StreamWriter sw = new StreamWriter(movieFile);
                 //Do-While Loop: While user has not given a valid ID...
                     //Prompt user for Movie ID
                     //Check that ID does not yet exist
@@ -93,7 +101,7 @@ namespace MovieData
                 //Write to data csv
 
                 //Close stream writer
-
+                sw.Close();
             } else {
                 //Quit program, aka do nothing
             }
