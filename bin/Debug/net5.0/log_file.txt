@@ -1,0 +1,8 @@
+2021-09-17 10:33:46.9682|INFO|MovieData.Program|Program start
+2021-09-17 10:33:54.9714|INFO|MovieData.Program|View all movies
+2021-09-17 10:33:54.9714|INFO|MovieData.Program|Program end
+2021-09-17 10:34:00.4417|INFO|MovieData.Program|Program start
+2021-09-17 10:34:01.4055|INFO|MovieData.Program|Add a movie
+2021-09-17 10:34:01.4070|INFO|MovieData.Program|Program end
+2021-09-17 10:34:10.0592|INFO|MovieData.Program|Program start
+2021-09-17 10:34:11.5386|INFO|MovieData.Program|Program end

@@ -14,16 +14,29 @@ namespace MovieData
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");  
+            //Directory
+            string path = Directory.GetCurrentDirectory() + "\\nlog.config";
+
+            // create instance of Logger
+            var logger = NLog.Web.NLogBuilder.ConfigureNLog(path).GetCurrentClassLogger();
             
             //Log program start
-            
+            logger.Info("Program start");
+
             //Welcome Message
+            Console.WriteLine("Welcome to the Movie Database! Would you like to...");
             //Give the User 3 Options
             //1.) View all the movies
             //2.) Add to the movies
             //Anything else to quit
-            
-            //View all Movies
+            Console.WriteLine("1.) View all movies (1)");
+            Console.WriteLine("2.) Add a movie (2)");
+            Console.WriteLine("3.) Quit (Any character)");
+            string ans = Console.ReadLine(); 
+
+            if (ans == "1"){
+                logger.Info("View all movies");
+                //View all Movies
                 /*
                     How to parse data:
                     For each line:
@@ -45,9 +58,9 @@ namespace MovieData
                     //Print New line
 
                 //Close stream reader
-
-
-            //Add to Movies
+            } else if (ans == "2"){
+                logger.Info("Add a movie");
+                //Add to Movies
                 /* Each movie needs:
                 An ID (Must be unique)
                 A Title
@@ -81,8 +94,13 @@ namespace MovieData
 
                 //Close stream writer
 
+            } else {
+                //Quit program, aka do nothing
+            }
+
             //Goodbye message
             //Log program end
+            logger.Info("Program end");
         }
     }
 }

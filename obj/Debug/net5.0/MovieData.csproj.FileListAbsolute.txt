@@ -14,3 +14,23 @@ C:\Users\bitstudent\source\repos\MovieData\obj\Debug\net5.0\MovieData.dll
 C:\Users\bitstudent\source\repos\MovieData\obj\Debug\net5.0\ref\MovieData.dll
 C:\Users\bitstudent\source\repos\MovieData\obj\Debug\net5.0\MovieData.pdb
 C:\Users\bitstudent\source\repos\MovieData\obj\Debug\net5.0\MovieData.genruntimeconfig.cache
+C:\Users\addde\source\repos\WCTC Projects\MovieData\obj\Debug\net5.0\MovieData.csproj.AssemblyReference.cache
+C:\Users\addde\source\repos\WCTC Projects\MovieData\obj\Debug\net5.0\MovieData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\addde\source\repos\WCTC Projects\MovieData\obj\Debug\net5.0\MovieData.AssemblyInfoInputs.cache
+C:\Users\addde\source\repos\WCTC Projects\MovieData\obj\Debug\net5.0\MovieData.AssemblyInfo.cs
+C:\Users\addde\source\repos\WCTC Projects\MovieData\obj\Debug\net5.0\MovieData.csproj.CoreCompileInputs.cache
+C:\Users\addde\source\repos\WCTC Projects\MovieData\obj\Debug\net5.0\MovieData.dll
+C:\Users\addde\source\repos\WCTC Projects\MovieData\obj\Debug\net5.0\ref\MovieData.dll
+C:\Users\addde\source\repos\WCTC Projects\MovieData\obj\Debug\net5.0\MovieData.pdb
+C:\Users\addde\source\repos\WCTC Projects\MovieData\bin\Debug\net5.0\MovieData.exe
+C:\Users\addde\source\repos\WCTC Projects\MovieData\bin\Debug\net5.0\MovieData.deps.json
+C:\Users\addde\source\repos\WCTC Projects\MovieData\bin\Debug\net5.0\MovieData.runtimeconfig.json
+C:\Users\addde\source\repos\WCTC Projects\MovieData\bin\Debug\net5.0\MovieData.runtimeconfig.dev.json
+C:\Users\addde\source\repos\WCTC Projects\MovieData\bin\Debug\net5.0\MovieData.dll
+C:\Users\addde\source\repos\WCTC Projects\MovieData\bin\Debug\net5.0\ref\MovieData.dll
+C:\Users\addde\source\repos\WCTC Projects\MovieData\bin\Debug\net5.0\MovieData.pdb
+C:\Users\addde\source\repos\WCTC Projects\MovieData\bin\Debug\net5.0\NLog.dll
+C:\Users\addde\source\repos\WCTC Projects\MovieData\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+C:\Users\addde\source\repos\WCTC Projects\MovieData\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
+C:\Users\addde\source\repos\WCTC Projects\MovieData\obj\Debug\net5.0\MovieData.csproj.CopyComplete
+C:\Users\addde\source\repos\WCTC Projects\MovieData\obj\Debug\net5.0\MovieData.genruntimeconfig.cache
