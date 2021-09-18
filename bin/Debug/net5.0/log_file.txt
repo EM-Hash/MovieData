@@ -25,3 +25,42 @@
 2021-09-17 10:45:12.3071|INFO|MovieData.Program|Program start
 2021-09-17 10:45:13.0184|INFO|MovieData.Program|Add a movie
 2021-09-17 10:45:13.0184|INFO|MovieData.Program|Program end
+2021-09-18 12:01:51.9734|INFO|MovieData.Program|Program start
+2021-09-18 12:01:54.3440|INFO|MovieData.Program|Add a movie
+2021-09-18 12:02:18.4838|INFO|MovieData.Program|Program start
+2021-09-18 12:02:19.2275|INFO|MovieData.Program|Add a movie
+2021-09-18 12:02:33.8207|INFO|MovieData.Program|Program start
+2021-09-18 12:02:36.4293|INFO|MovieData.Program|View all movies
+2021-09-18 12:02:36.4293|INFO|MovieData.Program|Program end
+2021-09-18 12:02:43.9129|INFO|MovieData.Program|Program start
+2021-09-18 12:02:44.6142|INFO|MovieData.Program|Add a movie
+2021-09-18 12:03:54.6610|INFO|MovieData.Program|Program start
+2021-09-18 12:03:56.2214|INFO|MovieData.Program|Add a movie
+2021-09-18 12:37:51.3983|INFO|MovieData.Program|Program start
+2021-09-18 12:37:52.7317|INFO|MovieData.Program|Add a movie
+2021-09-18 12:38:50.5320|INFO|MovieData.Program|Program start
+2021-09-18 12:38:51.2982|INFO|MovieData.Program|Add a movie
+2021-09-18 12:38:52.9506|INFO|MovieData.Program|Program end
+2021-09-18 12:40:09.1109|INFO|MovieData.Program|Program start
+2021-09-18 12:40:10.2883|INFO|MovieData.Program|Add a movie
+2021-09-18 12:40:49.7809|INFO|MovieData.Program|Program start
+2021-09-18 12:40:50.6005|INFO|MovieData.Program|Add a movie
+2021-09-18 12:40:51.3224|INFO|MovieData.Program|Program end
+2021-09-18 12:41:33.2258|INFO|MovieData.Program|Program start
+2021-09-18 12:41:34.5192|INFO|MovieData.Program|Add a movie
+2021-09-18 12:41:35.7748|INFO|MovieData.Program|Program end
+2021-09-18 12:41:47.3793|INFO|MovieData.Program|Program start
+2021-09-18 12:41:48.4092|INFO|MovieData.Program|Add a movie
+2021-09-18 12:41:50.2143|INFO|MovieData.Program|Program end
+2021-09-18 12:43:45.2081|INFO|MovieData.Program|Program start
+2021-09-18 12:43:46.9287|INFO|MovieData.Program|Add a movie
+2021-09-18 12:43:47.7917|INFO|MovieData.Program|Program end
+2021-09-18 12:45:28.5525|INFO|MovieData.Program|Program start
+2021-09-18 12:45:29.3475|INFO|MovieData.Program|Add a movie
+2021-09-18 12:49:59.1579|INFO|MovieData.Program|Program start
+2021-09-18 12:50:00.2538|INFO|MovieData.Program|Add a movie
+2021-09-18 12:50:38.0219|INFO|MovieData.Program|Program start
+2021-09-18 12:50:38.6975|INFO|MovieData.Program|Add a movie
+2021-09-18 12:51:05.3790|INFO|MovieData.Program|Program start
+2021-09-18 12:51:06.1159|INFO|MovieData.Program|Add a movie
+2021-09-18 12:51:09.7637|INFO|MovieData.Program|Program end
