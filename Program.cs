@@ -85,31 +85,41 @@ namespace MovieData
                     Console.WriteLine("Please input a Movie ID:");
                     //Take in ID Input
                     movieID = Console.ReadLine();
-                    //Check that ID does not yet exist
+                    //Make sure that the user gave a NUMBER
+                    int dummy;
+                    if (int.TryParse(movieID, out dummy)){
+                        //If it's a proper number...
+                        //Check that ID does not yet exist
                         //Start by opening a new reader
-                    StreamReader sr = new StreamReader(movieFile);
-                    //Cycle through the stream
-                    while(!sr.EndOfStream){
-                        //Take in the line, parse it based on commas
-                        string[] movieLine = sr.ReadLine().Split(",");
-                        //If the ID of the movie is equal to what the user put in
-                        if (movieLine[0] == movieID){
-                            //Tell the user
-                            Console.WriteLine("That ID already exists.");
-                            //Make the ID false
-                            validID = false;
-                            //Break out
-                            break;
-                        } else {
-                            //Otherwise, make the ID true
-                            validID = true;
+                        StreamReader sr = new StreamReader(movieFile);
+                        //Cycle through the stream
+                        while(!sr.EndOfStream){
+                            //Take in the line, parse it based on commas
+                            string[] movieLine = sr.ReadLine().Split(",");
+                            //If the ID of the movie is equal to what the user put in
+                            if (movieLine[0] == movieID){
+                                //Tell the user
+                                Console.WriteLine("That ID already exists.");
+                                //Make the ID false
+                                validID = false;
+                                //Break out
+                                break;
+                            } else {
+                                //Otherwise, make the ID true
+                                validID = true;
+                            }
                         }
+                        //If the ID is valid
+                        if(validID){
+                            //Close the stream
+                            sr.Close();
+                        }
+                    } else {
+                        //Otherwise, let the user know it's invalid and relopp
+                        Console.WriteLine("That is not a valid ID.");
+                        continue;
                     }
-                    //If the ID is valid
-                    if(validID){
-                        //Close the stream
-                        sr.Close();
-                    }
+                    
                 //Check if the ID is valid. If so, break. If not, repeat with a new ID. 
                 } while (!validID);
 
