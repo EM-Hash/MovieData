@@ -16,9 +16,9 @@
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
 
             //Console for when not debugging
-            "console": "internalConsole",
+            // "console": "internalConsole",
             //Console for debugging
-            // "console": "integratedTerminal",
+            "console": "integratedTerminal",
             "stopAtEntry": false
         },
         {

@@ -167,11 +167,27 @@ namespace MovieData
                 logger.Info("All genres collected");
 
                 //Collate information
-                //Format: ID,Title**,Genre|Genre|etc....
-                //**IF TITLE HAS COMMAS IN IT, PUT QUOTATION MARKS AROUND IT
+                
+                //Check if title has commas in it
+                if (movieTitle.Contains(',')){
+                    //If the title has commas, add quotation marks to each side
+                    movieTitle = "\"" + movieTitle + "\"";
+                }
 
+                //Write to data file in format ID,Title,Genre|Genre|Genre, etc...
+                
+                //String to add in 
+                string movieInput = movieID + "," + movieTitle + ",";
+                //Iterate through every genre BUT THE LAST ONE
+                for (int i = 0; i < genres.Count - 1; i++){
+                    //Add the genre plus a |
+                    movieInput += genres[i] + "|";
+                }
+                //Add the last genre
+                movieInput += genres[genres.Count-1];
 
-                //Write to data file
+                //Add the string to the csv file
+                sw.WriteLine(movieInput);
 
                 //Close stream writer
                 sw.Close();
