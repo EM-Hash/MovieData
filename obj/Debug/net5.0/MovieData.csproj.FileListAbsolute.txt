@@ -34,3 +34,7 @@ C:\Users\addde\source\repos\WCTC Projects\MovieData\bin\Debug\net5.0\NLog.Extens
 C:\Users\addde\source\repos\WCTC Projects\MovieData\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
 C:\Users\addde\source\repos\WCTC Projects\MovieData\obj\Debug\net5.0\MovieData.csproj.CopyComplete
 C:\Users\addde\source\repos\WCTC Projects\MovieData\obj\Debug\net5.0\MovieData.genruntimeconfig.cache
+C:\Users\bitstudent\source\repos\MovieData\bin\Debug\net5.0\NLog.dll
+C:\Users\bitstudent\source\repos\MovieData\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+C:\Users\bitstudent\source\repos\MovieData\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
+C:\Users\bitstudent\source\repos\MovieData\obj\Debug\net5.0\MovieData.csproj.CopyComplete

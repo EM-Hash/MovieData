@@ -6,6 +6,7 @@
 using System;
 using NLog.Web;
 using System.IO;
+using System.Collections.Generic;
 
 namespace MovieData
 {
@@ -13,7 +14,6 @@ namespace MovieData
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");  
             //Directory
             string path = Directory.GetCurrentDirectory() + "\\nlog.config";
 
@@ -77,7 +77,8 @@ namespace MovieData
                 //Is the ID given valid?
                 bool validID = false;
                 string movieID;
-                do{ 
+                do{
+                    logger.Info("Start of ID check");
                     //Do-While Loop: While user has not given a valid ID...
 
                     //Prompt user for Movie ID
@@ -109,29 +110,68 @@ namespace MovieData
                         //Close the stream
                         sr.Close();
                     }
-                //Check if the ID is valid. If not, repeat with a new ID. 
+                //Check if the ID is valid. If so, break. If not, repeat with a new ID. 
                 } while (!validID);
+
+                logger.Info("Valid ID given");
+                
+                //Once the user has given a valid ID....
 
                 //Create stream writer
                 StreamWriter sw = new StreamWriter(movieFile, true);
-                
 
                 //Ask for Title
+                Console.WriteLine("What is the title of the movie?");
+                string movieTitle = Console.ReadLine();
+
+                //Boolean for whether there are more genres to add
+                bool moreGenres = true;
+
+                //List of genres
+                List<string> genres = new List<string>();
 
                 //Do-While Loop: While there are more genres to insert...
+                do{
+                    logger.Info("Prompting user for genre...");
                     //Prompt user for Genre
-                    //Add genre to array
+                    Console.WriteLine("What is one of the movie's genres?");
+                    //Store genre
+                    string genre = Console.ReadLine();
+                    //If the genre is already in the vector, say so and loop back to the beginning
+                    bool validGenre = true;
+                    foreach (string s in genres){
+                        if (s.ToLower() == genre.ToLower()){
+                            Console.WriteLine("That genre is already listed.");
+                            validGenre = false;
+                            break;
+                        }
+                    }
+                    //If the genre is already in the vector, skip and go back to the beginning
+                    if(validGenre){
+                        //If the genre isn't in the vector...
+                        //Add genre to vector
+                        genres.Add(genre);
+                    }
                     //Ask if user would like to add another genre
+                    Console.WriteLine("Would you like to add another genre? (Y/N): ");
+                    ans = Console.ReadLine();
+                    if (ans.ToLower() == "y"){
                         //If so, loop
+                        moreGenres = true;
+                    } else {
                         //If not, break
+                        moreGenres = false;
+                    }
+                } while (moreGenres);
+
+                logger.Info("All genres collected");
 
                 //Collate information
-
                 //Format: ID,Title**,Genre|Genre|etc....
-
                 //**IF TITLE HAS COMMAS IN IT, PUT QUOTATION MARKS AROUND IT
 
-                //Write to data csv
+
+                //Write to data file
 
                 //Close stream writer
                 sw.Close();
