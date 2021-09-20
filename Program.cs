@@ -55,11 +55,30 @@ namespace MovieData
                 try{
                     StreamReader sr = new StreamReader(movieFile);
                     //While there are still lines to read...
-                    //Create array of movie values (see How to Parse Data)
+                    while(!sr.EndOfStream){
+                        //Create array of movie values (see How to Parse Data)
 
-                    //Print in format [Title (Genre, Genre, Genre, etc...)]
-                    //Print New line
+                        //Take it in as a string
+                        string tempLine = sr.ReadLine();
 
+                        //Array to hold the movie info
+                        string[] movieInfo;
+
+                        //Are there quotation marks? 
+                        if (tempLine.Contains('"')){
+                            //If so, first parse by quotation marks
+                            movieInfo = tempLine.Split('"');
+                            //Remove commas at end of movieInfo[0] and beginning of movieInfo[2] (the ID and the genres)
+                            movieInfo[0] = movieInfo[0].Substring(0,2);  
+                            movieInfo[2] = movieInfo[2].Substring(1);
+                        } else {
+                            //If there aren't quotation marks, just separate based on commas
+                            movieInfo = tempLine.Split(",");
+                        }
+                        //Print in format [Title (Genre, Genre, Genre, etc...)]
+                        //Print New line
+
+                    }
                     //Close stream reader
                     sr.Close();
                 } catch(Exception e) {

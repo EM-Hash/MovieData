@@ -170,3 +170,34 @@
 2021-09-20 09:30:45.9491|INFO|MovieData.Program|Add a movie
 2021-09-20 09:30:45.9491|INFO|MovieData.Program|Start of ID check
 2021-09-20 09:30:53.4491|INFO|MovieData.Program|Start of ID check
+2021-09-20 12:23:07.3154|INFO|MovieData.Program|Program start
+2021-09-20 12:23:09.3117|INFO|MovieData.Program|Add a movie
+2021-09-20 12:23:09.3117|INFO|MovieData.Program|Start of ID check
+2021-09-20 12:23:13.0434|INFO|MovieData.Program|Valid ID given
+2021-09-20 12:23:21.4938|INFO|MovieData.Program|Prompting user for genre...
+2021-09-20 12:23:25.3618|INFO|MovieData.Program|Prompting user for genre...
+2021-09-20 12:23:27.6322|INFO|MovieData.Program|Prompting user for genre...
+2021-09-20 12:23:35.0521|INFO|MovieData.Program|All genres collected
+2021-09-20 12:23:35.0535|INFO|MovieData.Program|Program end
+2021-09-20 12:23:54.0817|INFO|MovieData.Program|Program start
+2021-09-20 12:23:55.5624|INFO|MovieData.Program|Add a movie
+2021-09-20 12:23:55.5624|INFO|MovieData.Program|Start of ID check
+2021-09-20 12:24:13.1905|INFO|MovieData.Program|Valid ID given
+2021-09-20 12:24:26.0296|INFO|MovieData.Program|Prompting user for genre...
+2021-09-20 12:24:31.5477|INFO|MovieData.Program|Prompting user for genre...
+2021-09-20 12:24:37.2747|INFO|MovieData.Program|All genres collected
+2021-09-20 12:24:37.2747|INFO|MovieData.Program|Program end
+2021-09-20 12:32:41.0195|INFO|MovieData.Program|Program start
+2021-09-20 12:32:43.1968|INFO|MovieData.Program|View all movies
+2021-09-20 12:32:43.1968|INFO|MovieData.Program|Program end
+2021-09-20 12:33:08.5381|INFO|MovieData.Program|Program start
+2021-09-20 12:33:11.8386|INFO|MovieData.Program|View all movies
+2021-09-20 12:33:43.0009|INFO|MovieData.Program|Program end
+2021-09-20 12:35:01.2602|INFO|MovieData.Program|Program start
+2021-09-20 12:35:03.2237|INFO|MovieData.Program|View all movies
+2021-09-20 12:35:03.2461|ERROR|MovieData.Program|File does not exist
+2021-09-20 12:35:03.2461|INFO|MovieData.Program|Program end
+2021-09-20 12:36:00.0236|INFO|MovieData.Program|Program start
+2021-09-20 12:36:02.8606|INFO|MovieData.Program|View all movies
+2021-09-20 12:38:32.7494|INFO|MovieData.Program|Program start
+2021-09-20 12:38:37.1533|INFO|MovieData.Program|View all movies
