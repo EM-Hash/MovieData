@@ -62,22 +62,45 @@ namespace MovieData
                         string tempLine = sr.ReadLine();
 
                         //Array to hold the movie info
-                        string[] movieInfo;
+                        string[] movieInfo = new string[3];
 
                         //Are there quotation marks? 
                         if (tempLine.Contains('"')){
-                            //If so, first parse by quotation marks
-                            movieInfo = tempLine.Split('"');
-                            //Remove commas at end of movieInfo[0] and beginning of movieInfo[2] (the ID and the genres)
-                            movieInfo[0] = movieInfo[0].Substring(0,2);  
-                            movieInfo[2] = movieInfo[2].Substring(1);
+                            //If so, create three substrings; one beforee the quotation marks, one involving the first
+                            //And last quotation marks found, and one after that
+
+                            //The first value will start at the beginning of temp line, and go to just before the first
+                            //Quotation mark
+                            movieInfo[0] = tempLine.Substring(0, tempLine.IndexOf("\"") - 1);
+                            //The third value will go from just after the last quotation mark to the end
+                            movieInfo[2] = tempLine.Substring(tempLine.LastIndexOf("\"") + 2);
+                            //The second value is the value that is not the first or third values (the title)
+                            //The length of the second value is the total length minus the length of the other two values
+                            //(+ 2 at the beginning to remove the comma and first quotation mark, -4 at the end to make up for the extra quotation marks and commas)
+                            movieInfo[1] = tempLine.Substring(movieInfo[0].Length + 2, tempLine.Length - movieInfo[0].Length - movieInfo[2].Length - 4);
+
                         } else {
                             //If there aren't quotation marks, just separate based on commas
                             movieInfo = tempLine.Split(",");
                         }
                         //Print in format [Title (Genre, Genre, Genre, etc...)]
-                        //Print New line
+                        //Start by printing out the Title (
+                        Console.Write(movieInfo[1] + " (");
 
+                        //Next, start printing the genres
+                        //Store the genres
+                        string[] genreList = movieInfo[2].Split('|');
+
+                        //print the genres
+                        //For every genre save the last one...
+                        for (int i = 0; i < genreList.Length - 1; i++){
+                            //Print it with a comma
+                            Console.Write(genreList[i] + ", ");
+                        }
+                        //Print the last genre with a ")"
+                        Console.WriteLine(genreList[genreList.Length - 1] + ")");
+                        //Print New line
+                        Console.WriteLine();
                     }
                     //Close stream reader
                     sr.Close();
